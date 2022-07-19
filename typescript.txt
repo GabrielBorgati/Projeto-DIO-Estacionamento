@@ -1,0 +1,5 @@
+é apenas um superset de js, n é uma linguagem.
+ é preciso transpilar, ou seja, deixar o código no formato js
+ para que possa ser lido e interpretado pelo navegador
+criação de arquivo ts: npx -p typescript tsc --init
+transpilação:npx -p typescript tsc

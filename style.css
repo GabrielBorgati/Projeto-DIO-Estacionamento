@@ -1,0 +1,74 @@
+
+body{
+    background-color: #F5F5F5;
+}
+    
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+margin: 20px 10px 10px 50px
+}
+
+
+thead {
+    display: flex;
+    flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 20px 10px 10px 20px;
+padding: 20px 20px;
+height: fit-content;
+width: fit-content;
+}
+th{
+    padding: 5px 85px;
+    border: 2px solid black;
+    border-radius: 5px;
+   }
+
+tr{
+    height: 50px;
+    text-align: center;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+#patio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+body input{
+    margin: 20px 20px 10px 50px;
+
+}
+#cadastrar{
+ cursor: pointer;
+ box-shadow: 0 2px #999;
+ 
+}
+    #cadastrar:hover{background-color: rgb(196, 190, 190);
+    border: 2px solid gray;
+    }
+
+#cadastrar:active{
+box-shadow: 0px 2px #666;
+transform: translateY(1px);
+}
+.delete{
+    
+    cursor: pointer;
+    box-shadow: 0 2px #999; 
+}
+.delete:hover{background-color: rgb(196, 190, 190);
+    border: 2px solid gray;
+    }
+    .delete:active{
+        box-shadow: 0px 2px #666;
+transform: translateY(1px);
+}
